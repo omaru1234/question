@@ -2,6 +2,9 @@ a{
   text-decoration: none;
   color: inherit;
 }
+li{
+  list-style: none;
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -34,28 +37,84 @@ a{
 .top2{
   font-family: 'Gorditas', cursive;
   font-size: 50px;
-  color: brown;
+  color: rgb(214, 24, 24);
   padding-bottom: 40px;
 }
 .top3{
   font-size: 20px;
-  color: brown;
+  color: rgb(214, 24, 24);
   padding-bottom: 20px;
 }
 .span_text{
-  color: aqua;
+  color: rgb(6, 148, 148);
 }
 .top5{
-  position: absolute;
-  left:60%;
-  top:50px;
-  z-index: 0;
+  text-align: right;
 }
 .top5 img{
-  width:100%;
-
+  width:60%;
 }
 
 .block{
-  width: 100%;
+  width: 600px;
+  margin:20px auto;
+  text-align: center;
+}
+.block_top{
+  text-align: left;
+  padding: 30px 0;
+  font-size: 20px;
+}
+.topic{
+  background-color: hsl(0, 72%, 42%);
+  color: white;
+  margin:0px 20px;
+  border-radius: 20px;
+}
+.topic1{
+  width: inherit;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-top: 2px solid gray;
+  text-align: left;
+}
+.topic2{
+    width: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid gray;
+    text-align: left;
+}
+.topic3{
+    width: inherit;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: left;
+}
+.block2{
+  background-color: rgb(241, 237, 237);
+  margin:80px 0px 30px 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.block2_top{
+  text-align: center;
+  font-size: 24px;
+  margin:20px 10px;
+  padding-bottom: 30px;
+
+}
+.block_box{
+  display: flex;
+  justify-content: center;
+}
+.block_text{
+  width: 400px;
+  margin-right: 80px;
+}
+.image3{
+  width: 400px;
+  margin-left: 80px;
 }
