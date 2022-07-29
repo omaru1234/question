@@ -24,6 +24,7 @@ li{
 .header_right2{
   margin-right: 20px;
 }
+
 .top{
   position: relative;
 }
@@ -174,14 +175,13 @@ li{
 .block4{
   width: 100%;
   margin: 20px 0px;
-  padding: 30px auto;
   background-color: rgb(223, 220, 220);
 }
 .block4_top{
   font-size: 24px;
   margin-left:6.7%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .card{
   width:100%;
@@ -208,24 +208,92 @@ li{
   padding: 0px 10px 30px 10px;
   color: gray;
 }
+
+
+.block4_btn{
+  background: white;
+  border: 1px solid #CC0099;
+  color: #CC0099;
+  border-radius: 30px;
+  margin: 30px auto;
+  text-align: center;
+  width: 200px;
+  padding: 20px 0px;
+  display: block;
+}
+
 .block5{
   width: 100%;
-  margin: 50px 30%;
+  margin: 80px 30%;
+  display: block;
 }
 .block5_top{
   font-size: 24px;
   margin-bottom: 20px;
   text-align: left;
 }
-td, th{
-  border: solid black 1px;
-}
 .block5_left{
-  padding: 10px 70px 10px 10px;
+  padding: 20px 70px 20px 20px;
   background-color: rgb(238, 237, 237);
   text-align: left;
 }
 .block5_right{
-  padding: 10px 130px 10px 10px;
+  padding: 20px 400px 20px 20px;
   text-align: left;
+}
+.block5_left,.block5_right {
+  border: solid black 1px;
+}
+
+.block6{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+.block6_left img{
+  width: 100%;
+}
+.block6_right img{
+  width: 100%;
+}
+.block6_text{
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+.block6_left, .block6_right{
+  position: relative;
+}
+.block6_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.footer_text{
+  margin: 40px auto;
+  text-align: center;
+  font-weight: bold;
+}
+.footer_btn{
+  background: linear-gradient(90deg, rgb(255, 92, 255), rgb(120, 0, 120));
+  color: white;
+  width: 200px;
+  padding: 20px 0px;
+  box-shadow: 0px 10px rgb(64, 1, 64);
+  border-radius: 30px;
+  text-align: center;
+  margin: 40px auto 0;
+  display: block;
+}
+.copy{
+  text-align: center;
+  display: block;
+  background: rgb(199, 199, 199);
+  margin: 40px auto;
+  padding: 40px;
 }
