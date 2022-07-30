@@ -223,15 +223,15 @@ li{
 /*↓質問2の内容部分*/
 .block5{
   width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
+}
+.block5_box{
+  width: 800px;
+  margin: 50px auto;
+
 }
 .block5_top{
   font-size: 24px;
-  margin:30px auto;
-}
-.block5_table{
-  margin: 10px auto;
+  padding: 30px 0;
 }
 .block5_left{
   padding: 20px 70px 20px 20px;
@@ -251,6 +251,7 @@ li{
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 60px;
 
 }
 .block6_left img{
@@ -274,9 +275,11 @@ li{
   transform: translate(-50%, -50%);
 }
 
-
+.footer1{
+  margin-top: 100px;
+}
 .footer_text{
-  margin: 40px auto;
+  margin: 60px auto;
   text-align: center;
   font-weight: bold;
 }
@@ -288,13 +291,13 @@ li{
   box-shadow: 0px 10px rgb(64, 1, 64);
   border-radius: 30px;
   text-align: center;
-  margin: 40px auto 0;
+  margin: 60px auto 0;
   display: block;
 }
 .copy{
   text-align: center;
   display: block;
   background: rgb(199, 199, 199);
-  margin: 40px auto;
+  margin-top: 60px;
   padding: 40px;
 }
