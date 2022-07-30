@@ -30,21 +30,22 @@ li{
 }
 .top1{
   position: absolute;
-  left: 30%;
+  left: 25%;
   top: 150px;
   z-index: 10;
   width:70%
 }
 .top2{
-  font-family: 'Gorditas', cursive;
-  font-size: 50px;
+  font-family: 'Indie Flower', cursive;  font-size: 50px;
   color: rgb(214, 24, 24);
   padding-bottom: 40px;
+  line-height: 80px;
 }
 .top3{
   font-size: 20px;
   color: rgb(214, 24, 24);
   padding-bottom: 20px;
+  font-weight: bold;
 }
 .span_text{
   color: rgb(6, 148, 148);
@@ -75,23 +76,23 @@ li{
 .topic1{
   width: inherit;
   padding-top: 30px;
-  padding-bottom: 10px;
-  border-top: 2px solid gray;
+  padding-bottom: 20px;
+  border-top: 2px solid rgb(201, 199, 199);
   text-align: left;
 }
 .topic2{
     width: inherit;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(201, 199, 199);
     text-align: left;
 }
 .topic3{
     width: inherit;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    border-top: 1px solid gray;
-    border-bottom: 2px solid gray;
+    border-top: 1px solid rgb(201, 199, 199);
+    border-bottom: 2px solid rgb(201, 199, 199);
     text-align: left;
 }
 .block2{
@@ -130,7 +131,7 @@ li{
   grid-column: 2/3;
   grid-row: 2/3;
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 40px;;
 }
 .block3_box{
   grid-column: 2/3;
@@ -144,11 +145,14 @@ li{
 }
 .block3_top2 {
   padding-top: 20px;
+  color: white;
 }
 
 .block3_text {
   padding-top: 20px;
   line-height: 20px;
+  color: white;
+  text-align: left;
 }
 .block3_box2{
   grid-column: 3/4;
@@ -166,7 +170,9 @@ li{
   align-items: center;
   line-height: 30px;
 }
-
+.block3_top3,.block3_text2{
+  color: white;
+}
 .block3_img2{
   width: 160px;
 }
