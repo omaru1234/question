@@ -171,10 +171,11 @@ li{
   width: 160px;
 }
 
-/*↓質問1の内容部分*/
+
 .block4{
   width: 100%;
   margin: 20px 0px;
+  padding: 30px;
   background-color: rgb(223, 220, 220);
 }
 .block4_top{
@@ -222,13 +223,15 @@ li{
 /*↓質問2の内容部分*/
 .block5{
   width: 100%;
-  margin: 80px 30%;
-  display: block;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .block5_top{
   font-size: 24px;
-  margin-bottom: 20px;
-  text-align: left;
+  margin:30px auto;
+}
+.block5_table{
+  margin: 10px auto;
 }
 .block5_left{
   padding: 20px 70px 20px 20px;
