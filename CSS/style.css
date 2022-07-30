@@ -282,7 +282,7 @@ li{
 }
 
 .footer1{
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .footer_text{
   margin: 60px auto;
@@ -293,12 +293,24 @@ li{
   background: linear-gradient(90deg, rgb(255, 92, 255), rgb(120, 0, 120));
   color: white;
   width: 200px;
-  padding: 20px 0px;
+  padding: 20px;
   box-shadow: 0px 10px rgb(64, 1, 64);
   border-radius: 30px;
   text-align: center;
-  margin: 60px auto 0;
+  margin: 60px auto;
   display: block;
+  position: relative;
+}
+.footer_btn::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  background: url(/img/img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0 ,-50%);
 }
 .copy{
   text-align: center;
